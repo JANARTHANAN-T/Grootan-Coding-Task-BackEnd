@@ -6,7 +6,8 @@ const answersSchema = new Schema({
   email: String,
   age: String,
   mobile: String,
-  role:String
+  role:String,
+  id:String
 });
 
 module.exports = mongoose.model("Answers", answersSchema);
